@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     // Identifies which player this belongs to
     public int playerNumber = 1;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        if(!IsOwner) return; // Only the owner of this GameObject can control it (i.e. the player who spawned it
         // Get movement input value
         float movementInput = GetMovementInput();
 
