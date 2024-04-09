@@ -32,7 +32,7 @@ public class MissileGun : NetworkBehaviour {
             Rigidbody missileBody = missile.GetComponent<Rigidbody>();
             if (missileBody != null)
             {
-                missileBody.GetComponent(transform.forward * fireForce);
+                missileBody.AddForce(transform.forward * fireForce);
 
             }
 
