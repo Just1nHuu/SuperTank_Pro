@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: 114050867477248132}
   - component: {fileID: 114262074966268068}
   - component: {fileID: 114036489170767728}
-  - component: {fileID: -782993268921584410}
-  - component: {fileID: 3631062225936578887}
+  - component: {fileID: 6175038743304685773}
+  - component: {fileID: -8193004763302466805}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNumber: 1
   startHealth: 5
---- !u!114 &-782993268921584410
+--- !u!114 &6175038743304685773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1691203124746624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: bd6ecf97a4bd46144947c383c7458758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UseUnreliableDeltas: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
   InLocalSpace: 0
   Interpolate: 1
   SlerpPosition: 0
---- !u!114 &3631062225936578887
+--- !u!114 &-8193004763302466805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

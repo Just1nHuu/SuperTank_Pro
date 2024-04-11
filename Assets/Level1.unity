@@ -728,6 +728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonHost: {fileID: 1955389958}
   buttonClient: {fileID: 1211374243}
+  PlayerCountText: {fileID: 1968608081}
 --- !u!114 &275207932
 MonoBehaviour:
   m_ObjectHideFlags: 0
